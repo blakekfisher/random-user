@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+#image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0px 15px;
+}
+
+#name {
+    color: teal;
+    text-transform: capitalize;
+}
+
+#handle {
+    color: rgb(0, 153, 255);
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+#city {
+    text-transform: capitalize;
+    margin-top: 0px;
+}
+
+h1 {
+    color: grey;
+    font-size: 24px;
+}
+
+p {
+    color: grey;
+    font-size: 12px;
+    margin: 0px;
+}
+
+#btn {
+    background: teal;
+    border: none;
+    color: white;
+    padding: 15px 200px;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+#middle {
+    display: flex;
+}
+
+#name {
+    margin: 0px;
+}
+
